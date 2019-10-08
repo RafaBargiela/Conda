@@ -30,4 +30,4 @@ source ~/.bashrc
 
 ```conda create -n isicle -c conda-forge -c bioconda -c ambermd openbabel rdkit ambertools snakemake numpy pandas yaml statsmodels python=3
 ```
- 
+ You can store now the conda env in the new location
