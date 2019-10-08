@@ -1,16 +1,16 @@
-### Conda
+# Conda
 A group of notes to manage packages with Anaconda under Supercomputing Cluster
 
-# Changing Directories to store conda environments
-
+## Changing Directories to store conda environments
+Loading modules
 ```module purge
 module load compiler/intel/2017
 module load anaconda/2019.03
 module load nwchem/6.8.1-cpu
-module list´´´
-##############################################################
-# List conda envs
-##############################################################
+module list```
+
+Then, we check the list of environments
+
 ```conda env list´´´
 ##############################################################
 # Remove isicle env is previously created
