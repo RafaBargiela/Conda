@@ -28,5 +28,6 @@ source ~/.bashrc
 ```
 - Reinstalling environment with list of programs
 
-
+```conda create
+```
  You can store now the conda env in the new location
