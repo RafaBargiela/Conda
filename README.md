@@ -28,6 +28,8 @@ source ~/.bashrc
 ```
 - Reinstalling environment with list of programs
 
-```conda create -n isicle -c conda-forge -c bioconda
+```echo "export CONDA_ENVS_PATH=/scratch/${USER}/conda_envs" >> ~/.bashrc
+echo "export CONDA_PKGS_DIRS=/scratch/${USER}/conda_pkgs" >> ~/.bashrc
+source ~/.bashrc
 ```
  You can store now the conda env in the new location
