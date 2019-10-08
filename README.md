@@ -12,7 +12,7 @@ module list
 
 Then, we check the list of environments
 
-```conda env list
+```conda info --envs
 ```
 
 - Remove old env previously created
