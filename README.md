@@ -26,7 +26,7 @@ conda clean --yes --all
 echo "export CONDA_PKGS_DIRS=/scratch/${USER}/conda_pkgs" >> ~/.bashrc
 source ~/.bashrc
 ```
-- Reinstalling the environments in the new folder
+- Reinstalling environment with list of programs
 
-```conda create -n newenv -c conda-forge -c bioconda -c qiime python=3
+```conda create -n isicle -c conda-forge -c bioconda -c ambermd openbabel rdkit ambertools snakemake numpy pandas yaml statsmodels python=3
 ```
