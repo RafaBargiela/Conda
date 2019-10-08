@@ -28,6 +28,6 @@ source ~/.bashrc
 ```
 - Reinstalling the environments in the new folder
 
-```conda create -n newenv -c conda-forge -c bioconda -c 'list of programs' python=3
+```conda create -n newenv -c conda-forge -c bioconda -c list of programs python=3
 ```
 
